@@ -1,0 +1,24 @@
+body{
+    color: black;
+    font: 12px "Britannic Bold";
+    background-color: #ffffff;
+    margin: 0;
+}
+input[type="text"] {
+    background-color: bisque;
+    border: 1px solid #FFECA7;
+    height: 30px;
+    color: black;
+    padding: 0 10px;
+    vertical-align: top;
+}
+button{
+    color: black;
+    background-color: orange;
+    border: none;
+    height: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    margin: 20px 0;
+}
