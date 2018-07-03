@@ -20,5 +20,42 @@ button{
     font-family: 'Oswald', sans-serif;
 }
 p{
-    margin: 20px 0;
+    margin: 10px 0;
+}
+#wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+header {
+    padding: 0px 0;
+    display: block;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-position: inside;
+    font: 20px 'Oswald', sans-serif;
+    padding: 0px;
+}
+
+.top-menu li {
+    float: top;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.top-menu li.active {
+    color: #00d95d;
+}
+
+.top-menu a {
+    color: #b2b2b2;
 }
