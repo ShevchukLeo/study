@@ -56,7 +56,6 @@ nav li {
 }
 li a:hover {
     color: #e9603c; /* Цвет текста активного пункта */
-    background-color: #f3b29e; /* Цвет фона активного пункта */
 }
 
 nav{
@@ -81,8 +80,6 @@ nav{
     color: #f3b29e;
     margin: 0 0 0 -6px;
 }
-
-
 
 #blocks{
     max-width: 920px;
@@ -111,8 +108,13 @@ block2{
 }
 #block6{
     display: inline-block;
-    padding: 0 30px;
+    padding: 0px;
 }
+
+#block6 a{
+    padding-right: 17px;
+}
+
 footer {
     background: #f3b29e;
     margin-top: 30px;
