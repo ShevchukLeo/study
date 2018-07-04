@@ -54,6 +54,10 @@ nav li {
 .top-menu a {
     color: #bababa;
 }
+li a:hover {
+    color: #e9603c; /* Цвет текста активного пункта */
+    background-color: #f3b29e; /* Цвет фона активного пункта */
+}
 
 nav{
     padding: 20px 0px;
@@ -106,7 +110,8 @@ block2{
     text-align: left;
 }
 #block6{
-    padding-bottom: 30px;
+    display: inline-block;
+    padding: 0 30px;
 }
 footer {
     background: #f3b29e;
