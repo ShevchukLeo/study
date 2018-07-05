@@ -23,6 +23,22 @@ header {
     margin: auto;
 }
 
+.logo-link{
+    font: 36px 'Oswald', sans-serif;
+    color: #fff;
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+
+.logo-link span.part1{
+    color: #e9603c;
+}
+
+.logo-link span.part2{
+    color: #f3b29e;
+    margin: 0 0 0 -6px;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -43,7 +59,7 @@ nav li {
 
 .top-menu li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0 10px;
     margin: 0;
 }
 
@@ -54,31 +70,31 @@ nav li {
 .top-menu a {
     color: #bababa;
 }
+
 li a:hover {
     color: #e9603c; /* Цвет текста активного пункта */
 }
 
 nav{
-    padding: 20px 0px;
+    padding: 20px;
     float: right;
     text-align: right;
     display: inline-block;
 }
 
-.logo-link{
-    font: 36px 'Oswald', sans-serif;
-    color: #fff;
-    margin: 0 0 0 0;
-    font-weight: bold;
+pol {
+    background: #f3b29e;
+    margin-top: 30px;
+
+
+}
+#pol{
+    height: 50px;
+    background: #f3b29e;
 }
 
-.logo-link span.part1{
-    color: #e9603c;
-}
-
-.logo-link span.part2{
-    color: #f3b29e;
-    margin: 0 0 0 -6px;
+#block1 {
+    text-align: center;
 }
 
 #blocks{
@@ -86,17 +102,54 @@ nav{
     margin: auto;
 }
 
-block2{
-    padding-right: 30px;
-
+#block2{
+    display: inline-block;
 }
 
-#block5{
+#block2 a{
+    padding-right: 12px;
+}
+
+#block3{
+    width: 940px;
+}
+
+#block3 div{
+    max-width: 295px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#block3 h1{
+    width: 220px;
+    font: 18px 'Oswald', sans-serif;
+    color: #e7663c;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#block3 p{
+    color: #505050;
+    font: 14px "Oswald";
+}
+
+#block3 button {
+    color: #fff;
+    background-color: #e7663c;
+    border: none;
+    height: 32px;
+    width: 75px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#block4{
     background: transparent url(../images/h1-bg.png);
     margin: 30px 0;
     padding-right: 10px;
 }
-#block5 h1 {
+
+#block4 h1 {
     display: inline-block;
     color: #e7663c;
     font: 18px 'Oswald', sans-serif;
@@ -106,12 +159,12 @@ block2{
     font-weight: bold;
     text-align: left;
 }
-#block6{
+
+#block5{
     display: inline-block;
-    padding: 0px;
 }
 
-#block6 a{
+#block5 a{
     padding-right: 17px;
 }
 
@@ -160,16 +213,20 @@ footer {
     float: left;
     margin-left: 40px;
 }
-author + p{
-    display: inline;
+
+#twitterf div{
+    display: inline-block;
 }
+
+#twitterf p {
+     float: left;
+ }
 
 #social{
     width: 279px;
     float: left;
     margin-left: 40px;
 }
-
 
 .social-icon {
     width: 30px;
