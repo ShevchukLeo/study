@@ -57,17 +57,17 @@ nav li {
     font-weight: bold;
 }
 
-.top-menu li {
+.array_menu li {
     display: inline-block;
     padding: 0 10px;
     margin: 0;
 }
 
-.top-menu li.active {
+.array_menu li.active {
     color: #e9603c;
 }
 
-.top-menu a {
+.array_menu a {
     color: #bababa;
 }
 
