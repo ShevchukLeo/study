@@ -48,8 +48,27 @@ $mas2 = explode(",", $stroka);
 var_dump($mas2);
 ?>
 
-<ul>
-    <?php
-    for($i=0;$i<5;)
-    ?>
-</ul>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+<?php
+$array_menu = array(
+    array("link"=>"Главная", "href"=>"/"),
+    array("link"=>"Описание", "href"=>"/razdel_1/"),
+    array("link"=>"Дополнительно", "href"=>"/razdel_2/"),
+    array("link"=>"Связь с нами", "href"=>"/razdel_3/")
+    );
+?>
+        <ul>
+            <li><a href='<?=$array_menu [0] ["href"]?>'><?=$array_menu [0] ["link"]?></a></li>
+            <li><a href='<?=$array_menu [1] ["href"]?>'><?=$array_menu [1] ["link"]?></a></li>
+            <li><a href='<?=$array_menu [2] ["href"]?>'><?=$array_menu [2] ["link"]?></a></li>
+            <li><a href='<?=$array_menu [3] ["href"]?>'><?=$array_menu [3] ["link"]?></a></li>
+        </ul>
+    </body>
+</html>
