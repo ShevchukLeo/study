@@ -3,6 +3,7 @@ body{
     font: 12px "Oswald";
     background-color: #fff;
     margin: auto;
+    bottom: 0px;
 }
 
 input[type="text"] {
@@ -15,7 +16,7 @@ input[type="text"] {
 }
 
 .container{
-    width: 920px;
+    width: 940px;
     margin: auto;
 }
 
@@ -49,13 +50,13 @@ nav a {
 }
 
 nav ul {
-    float: left;
-    margin: 0;
+    text-align: right;
+    margin: 0 -40px;
     padding: 0;
 }
 
 nav li {
-    text-align: right;
+    float: left;
     font: 18px 'Oswald', sans-serif;
     padding: 0 0 10px 0;
     margin: 0 0 10px 0;
@@ -127,6 +128,7 @@ nav{
 
 #block2{
     display: inline-block;
+    margin-left: -10px;
 }
 
 #block2 a{
@@ -134,13 +136,14 @@ nav{
 }
 
 #block3{
-    width: 940px;
+    width: 100%;
+    margin-left: -10px;
 }
 
 #block3 div{
-    max-width: 295px;
+    max-width: 294px;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 #block3 h1{
@@ -170,6 +173,7 @@ nav{
     background: transparent url(../images/h1-bg.png);
     margin: 30px 0;
     padding-right: 10px;
+    margin-left: -10px;
 }
 
 #block4 h1 {
@@ -186,9 +190,13 @@ nav{
 #block5{
     display: inline-block;
 }
-
+#block5 img {
+    width: 220px;
+    height: 220px;
+}
 #block5 a{
-    padding-right: 17px;
+    padding-right: 20px;
+    margin-left: -10px;
 }
 
 #footer div {
@@ -197,12 +205,14 @@ nav{
 
 #footer{
     color: white;
+    font: 12px "Oswald";
     background-color: #e7663c;
     padding: 30px 0;
     margin-top: 30px;
     height: 200px;
     position: relative;
     width: 100%;
+    bottom: 0;
 }
 
 #footer::after, #footer::before{
@@ -210,8 +220,9 @@ nav{
     background: #f3b29e;
     content: "";
     width: 1500px;
-    height: 240px;
+    height: 260px;
     display: block;
+    bottom: 0px;
 }
 
 #footer::after{
@@ -224,7 +235,7 @@ nav{
 }
 
 #footer hf {
-    font: 18px 'Oswald', sans-serif;
+    font: 20px 'Oswald', sans-serif;
     color: #fff;
     padding: 0px 30px;
     font-weight: bold;
@@ -235,28 +246,29 @@ nav{
     color: #dbdbdb;
 }
 
+#footer p {
+    padding-top: 5px;
+}
+
 #about-us{
     float: left;
-    width: 279px;
+    width: 285px;
     margin: auto;
 }
 
 #about-us p{
     margin-left: 30px;
-    width: 90%;
 }
 
 #twitterf{
-    width: 279px;
+    width: 285px;
     float: left;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 #twitterf div{
-    display: inline-block;
     padding-left: 30px;
     float: left;
-    margin-bottom: 5px;
 }
 
 #twitterf a {
@@ -269,10 +281,20 @@ nav{
 #twitterf author {
     padding: 0 5px;
 }
-#social{
-    width: 279px;
+
+#social {
     float: left;
-    margin-left: 40px;
+    width: 295px;
+    margin-left: 20px;
+}
+
+#social div{
+    padding-left: 30px;
+    float: left;
+}
+
+#social p {
+    width: 100%;
 }
 
 .social-icon {
@@ -283,4 +305,22 @@ nav{
     margin-right: 10px;
 }
 
+.social-icon-small  {
+    width: 16px;
+    height: 16px;
+    background: url(../images/social-small.png) no-repeat;
+    display: inline-block;
+    margin: 5px 6px 0 0;
+}
 
+.twitter {
+    background-position: 0 0;
+}
+
+.facebook {
+    background-position: -30px 0;
+}
+
+.google-plus {
+    background-position: -60px 0;
+}

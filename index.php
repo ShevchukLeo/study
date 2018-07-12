@@ -32,7 +32,7 @@ $array_menu = array(
                 <li><a href='<?=$array_menu [1] ["href"]?>'><?=$array_menu [1] ["link"]?></a></li>
                 <li><a href='<?=$array_menu [2] ["href"]?>'><?=$array_menu [2] ["link"]?></a></li>
                 <li><a href='<?=$array_menu [3] ["href"]?>'><?=$array_menu [3] ["link"]?></a></li>
-                <li><a href='<?=$array_menu [4] ["href"]?>'><?=$array_menu [3] ["link"]?></a></li>
+                <li><a href='<?=$array_menu [4] ["href"]?>'><?=$array_menu [4] ["link"]?></a></li>
             </ul>
         </nav>
     </header>
@@ -42,12 +42,12 @@ $array_menu = array(
         </div>
         <div id="blocks">
             <div id="block2">
-                <a href="#"><img src="images/b21.png" width="141" height="140"></a>
-                <a href="#"><img src="images/b22.png" width="141" height="140"></a>
-                <a href="#"><img src="images/b23.png" width="141" height="140"></a>
-                <a href="#"><img src="images/b24.png" width="141" height="140"></a>
-                <a href="#"><img src="images/b25.png" width="141" height="140"></a>
-                <b href="#"><img src="images/b26.png" width="141" height="140"></b>
+                <a href="#"><img src="images/b21.png" width="142" height="142"></a>
+                <a href="#"><img src="images/b22.png" width="142" height="142"></a>
+                <a href="#"><img src="images/b23.png" width="142" height="142"></a>
+                <a href="#"><img src="images/b24.png" width="142" height="142"></a>
+                <a href="#"><img src="images/b25.png" width="142" height="142"></a>
+                <b href="#"><img src="images/b26.png" width="142" height="142"></b>
             </div>
             <block3>
                 <div id="block3">
@@ -87,10 +87,10 @@ $array_menu = array(
                 <h1>RECENT WORKS</h1>
             </div>
             <div id="block5">
-                <a href="#"><img src="images/b41.png" width="215" height="215"></a>
-                <a href="#"><img src="images/b42.png" width="215" height="215"></a>
-                <a href="#"><img src="images/b43.png" width="215" height="215"></a>
-                <b href="#"><img src="images/b44.png" width="215" height="215"></b>
+                <a href="#"><img src="images/b41.png"></a>
+                <a href="#"><img src="images/b42.png"></a>
+                <a href="#"><img src="images/b43.png"></a>
+                <b href="#"><img src="images/b44.png"></b>
             </div>
         </div>
         <div id="footer">
@@ -113,19 +113,19 @@ $array_menu = array(
                      <time datetime="2012-10-23"><a href="#">about 2 hour ago</a></time>
                 </div>
                 <div>
-                    <p>Follow<author name="@pixelmater"><a href="#">@pixelmater</a></author></p>
+                    <p>Follow<author name="@bestpsdfrebies"><a href="#">@bestpsdfrebies</a></author></p>
                 </div>
             </div>
             <div id="social">
                 <hf>CONTACT US</hf>
-                <p>Lorem ipsum dolor sir amet, malorum recteque reprehendunt ea vel.
-                Urbanitas adolescens vim te, per at tritani aperiri.</p>
                 <div>
+                    <p>Lorem ipsum dolor sir amet, malorum recteque reprehendunt ea vel.
+                        Urbanitas adolescens vim te, per at tritani aperiri.</p>
                     <p>information@jetro.com</br>1.222.333.4444</p>
+                    <a href="http://twitter.com/" class="social-icon twitter"></a>
+                    <a href="http://facebook.com/" class="social-icon facebook"></a>
+                    <a href="http://plus.google.com/" class="social-icon google-plus"></a>
                 </div>
-
-
-                <a href="http://plus.google.com/" class="social-icon google-plus"></a>
             </div>
         </div>
     </div>
