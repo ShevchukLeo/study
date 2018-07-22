@@ -35,7 +35,6 @@ $array_menu = array(
                 <?php endforeach; ?>
             </ul>
 
-
 <!--            <ul class = "top-menu">-->
 <!--                <li><a href='--><?//=$array_menu [0] ["href"]?><!--'>--><?//=$array_menu [0] ["link"]?><!--</a></li>-->
 <!--                <li><a href='--><?//=$array_menu [1] ["href"]?><!--'>--><?//=$array_menu [1] ["link"]?><!--</a></li>-->
@@ -43,6 +42,7 @@ $array_menu = array(
 <!--                <li><a href='--><?//=$array_menu [3] ["href"]?><!--'>--><?//=$array_menu [3] ["link"]?><!--</a></li>-->
 <!--                <li><a href='--><?//=$array_menu [4] ["href"]?><!--'>--><?//=$array_menu [4] ["link"]?><!--</a></li>-->
 <!--            </ul>-->
+            
         </nav>
     </header>    <div class="container">
         <div id="block1">
